@@ -37,7 +37,14 @@ body {
   size: 120%;
 }
 
-.image-container img {
+.image2-container {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center; 
+  size: 120%;
+}
+
+.image-container mainpage {
   animation: jiggle 2s infinite;
 }
 
