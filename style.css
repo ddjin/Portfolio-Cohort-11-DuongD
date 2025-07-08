@@ -35,16 +35,17 @@ body {
   display: flex;
   justify-content: center; 
   size: 120%;
+  padding-bottom: 20%
 }
 
 .image2-container {
-  padding-bottom: 30px;
+  padding-bottom: 150px;
   display: flex;
   justify-content: center; 
-  size: 120%;
+  size: 100%;
 }
 
-.image-container mainpage {
+.image-container img {
   animation: jiggle 2s infinite;
 }
 
@@ -58,4 +59,50 @@ body {
   60% { transform: rotate(-1deg); }
   70% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
+}
+
+img:hover {
+
+  animation: jiggle 1.0s;
+
+  animation-iteration-count: infinite;
+}
+
+.footer {
+  background-color: #1b1b1b;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons{
+display: flex;  
+  justify-content: center;
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color:white;
+  margin: 10px;
+  border-radius: 50%
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  opacity: 1;
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
 }
